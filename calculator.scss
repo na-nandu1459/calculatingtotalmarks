@@ -1,0 +1,32 @@
+$primary_1:rgba(128, 128, 128, 0.123);
+$primary_2:black;
+$primary_3:#fff;
+body{
+    background-color: $primary_1; 
+    margin: 0;
+    padding: 0;
+
+    //nested properties
+    font: {
+        size:20px;
+        family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        weight:10px;
+    }
+     caption{
+        color: $primary_2;
+     }
+    table{
+        border-collapse: collapse;
+        text-align: center;
+        background-color: $primary_2;
+        color: $primary_3;
+        width: 550px;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    button:hover{
+        color: #fff;
+    }
+    
+
+}
