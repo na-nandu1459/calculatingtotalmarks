@@ -5,11 +5,9 @@ function calcy(){
     let bio= document.getElementById("bio").value;
 
     let totalgrades=parseFloat(phy)+parseFloat(che)+parseFloat(math)+parseFloat(bio);
-   
+    //let totalgrades= phy+che+math+bio;
     alert(totalgrades);
-    document.writeln("<h1>Total marks:" + totalgrades +"</h1>");
 
     let perc=(totalgrades/400)*100;
     alert(perc +"%");
-    document.writeln("<h1>percentage:"+ perc +" %</h1>");
 }
